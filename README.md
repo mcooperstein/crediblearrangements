@@ -1,4 +1,4 @@
-# crediblearrangements
+# Credible Arrangements
 This is a website I developed for a friend's flower arrangement business. I am also providing the necessary hosting services (through my GoDaddy reseller account) and maintenance. I set up the website with cPanel Hosting and Filezilla FTP, so that anyone who has FTP access can edit/upload changes to the live site from their local computer. 
 
 ## Architecture and Design
