@@ -34,7 +34,7 @@ body {
 }
 
 body {
-    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Merriweather', 'Helvetica Neue', sans-serif;
 }
 
 #header-break {
@@ -85,7 +85,7 @@ h1,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header-h1,
@@ -123,7 +123,6 @@ p.client-info {
     width: 100%;
     overflow: hidden;
     position: relative;
-    /*height: 255px;*/
     background-color: #d93b86;
     /*height: 250px;*/
     /*border-bottom: 5px solid #fff;*/
@@ -132,9 +131,9 @@ p.client-info {
 .bx-wrapper .bx-viewport {
     /*-moz-box-shadow: 0 0 5px #ccc;
     -webkit-box-shadow: 0 0 5px #ccc;
-    box-shadow: 0 0 5px #ccc;*/
+    box-shadow: 0 0 5px #ccc;
+    height: 275px;*/
     border: 5px solid #fff;
-    /*height: 275px;*/
     left: 0px;
     background-color: #d93b86;
     -webkit-transform: translatez(0);
@@ -191,7 +190,7 @@ aside {
 .navbar-default {
     background-color: white;
     border-color: rgba(34, 34, 34, 0.05);
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     transition: all 0.35s;
@@ -199,7 +198,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand {
     color: #d93b86;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -250,7 +249,6 @@ header {
 
 header .header-content .header-content-inner .title[style] {
     font-weight: 700;
-    /*text-transform: uppercase;*/
     margin-top: 1.5em;
     margin-bottom: 0;
     font-family: "Playball", cursive;
@@ -506,19 +504,16 @@ body {
 }
 
 .review {
-    /*vertical-align: middle;
-    display: inline-block;
-    line-height: normal;*/
     margin-top: 75px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 .testimonials {
-    /*float: left;*/
+    /*float: left;
+    margin-top: -20px;*/
     vertical-align: middle;
     height: 200px;
-    /*margin-top: -20px;*/
 }
 
 div.container2.text-center {
@@ -731,7 +726,6 @@ hr.search-primary:after {
         transform: translateY(-50%);
         text-align: center;
         padding: 100px 15px 100px;
-        /* padding: 0 50px; */
     }
     header .header-content .header-content-inner {
         max-width: 1000px;
@@ -770,7 +764,6 @@ hr.search-primary:after {
         width: 100%;
         overflow: hidden;
         position: relative;
-        /*height: 255px;*/
         background-color: #d93b86;
         height: 250px;
         border-bottom: 5px solid #fff;
@@ -789,7 +782,6 @@ hr.search-primary:after {
 
 @media (min-width: 992px) {
     .service-box {
-        /* margin: 20px auto 0; */
         margin: 50px;
     }
     .client-img {
@@ -813,7 +805,6 @@ hr.search-primary:after {
 
 @media (min-width: 1200px) {
     .service-box {
-        /* margin: 20px auto 0; */
         margin: 0;
     }
 }
